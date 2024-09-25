@@ -71,8 +71,7 @@ const television: Item = {
         look. \n
         I want ${this.quantity} of this item. My budget is around 
         ${this.price}. `);
-    },
-        
+    },     
 };
 
 const fan: Item = {
@@ -83,7 +82,8 @@ const fan: Item = {
     print() {
         console.log(`I wanna buy a ${this.brand}, since it is
         a know local brand. \n
-        I want it to be ${this.color} color, since I like a cool and aesthetic look. \n
+        I want it to be ${this.color} color, since I like a cool and 
+        aesthetic look. \n
         I want ${this.quantity} of this item. My budget is around 
         ${this.price}. `);
     },
