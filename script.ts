@@ -7,7 +7,7 @@ enum  Brand{
 }
 
 type Item = {
-    brand: string;
+    brand: Brand;
     color: string;
     quantity: number;
     price: number;
@@ -15,7 +15,7 @@ type Item = {
 };
 
 const tablet: Item = {
-    brand: "Samsung",
+    brand: Brand.SAMSUNG,
     color: "Silver",
     quantity: 2,
     price: 15000,
@@ -30,7 +30,7 @@ const tablet: Item = {
 };
 
 const cellphone: Item = {
-    brand: "Sony",
+    brand: Brand.SONY,
     color: "Black",
     quantity: 5,
     price: 20000,
@@ -45,7 +45,7 @@ const cellphone: Item = {
 };
 
 const laptop: Item = {
-    brand: "LG",
+    brand: Brand.LG,
     color: "Grey",
     quantity: 7,
     price:  60000,
@@ -60,7 +60,7 @@ const laptop: Item = {
 };
 
 const television: Item = {
-    brand: "TCL",
+    brand: Brand.TCL,
     color: "Black",
     quantity: 4,
     price: 30000,
@@ -76,7 +76,7 @@ const television: Item = {
 };
 
 const fan: Item = {
-    brand: "Panasonic",
+    brand: Brand.PANASONIC,
     color: "White",
     quantity: 6,
     price: 5000,
